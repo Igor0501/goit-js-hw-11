@@ -1,0 +1,2 @@
+!function(){var e=document.getElementById("searchInput"),t=document.getElementById("clearButton");t.addEventListener("click",(function(){e.value=""})),e.addEventListener("input",(function(){t.style.display=e.value?"block":"none"}));var n=document.getElementById("body");document.getElementById("search-form").addEventListener("submit",(function(e){e.preventDefault();var t,u=document.getElementById("searchInput"),a=u.value;t=a,n.style.backgroundImage="url(".concat(t,")"),u.value=""}))}();
+//# sourceMappingURL=index.51ffc529.js.map
